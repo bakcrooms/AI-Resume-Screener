@@ -1,8 +1,8 @@
-import express, { Request, Response } from 'express';
+import express, { Router, Request, Response } from 'express';
 import Job from '../models/Job';
 import { IJob } from '../types';
 
-const router = express.Router();
+const router: Router = express.Router();
 
 // Get all jobs
 router.get('/', async (req: Request, res: Response) => {

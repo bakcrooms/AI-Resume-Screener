@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { DashboardLayout } from './components/layout/DashboardLayout';
 import { Dashboard } from './pages/Dashboard';
-import { CandidateDetails } from './pages/CandidateDetails';
+import CandidateDetails from './pages/CandidateDetails';
 
 const theme = createTheme({
   palette: {

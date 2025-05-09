@@ -9,8 +9,10 @@ import jobRoutes from './routes/jobs';
 import resumeRoutes from './routes/resumes';
 import dashboardRoutes from './routes/dashboard';
 
+// Initialize environment variables
 dotenv.config();
 
+// Create Express app
 const app: Express = express();
 const PORT: number = parseInt(process.env.PORT || '5000', 10);
 
