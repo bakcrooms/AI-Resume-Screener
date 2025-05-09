@@ -35,6 +35,7 @@ cd ai-resume-screener
 
 ### 2. Start the backend (Node + Express)
 
+
 cd server
 npm install
 node index.js
