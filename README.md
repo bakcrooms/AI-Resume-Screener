@@ -64,5 +64,5 @@ Email follow-ups to candidates
 Public job page with resume upload form
 
 📫 Contact
-Built by Syed Anderson
+Built by bakcrooms
 Follow the journey — more projects dropping soon.
