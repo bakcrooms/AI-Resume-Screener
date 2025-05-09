@@ -27,43 +27,42 @@ This is a full-stack MERN app that allows businesses to post job listings and au
 
 ## 🚀 How to Run It
 
-### 1. Clone the repo
-
+1. Clone the repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-resume-screener.git
 cd ai-resume-screener
+```
 
-### 2. Start the backend (Node + Express)
-
-
+2. Start the backend (Node + Express)
+```bash
 cd server
 npm install
 node index.js
+```
 
-make sure your .env file contains your MongoDB connection string:
-
+Make sure your .env file contains your MongoDB connection string:
+```
 MONGO_URI=your-mongodb-uri
 PORT=5000
+```
 
-### 3. Start the frontend (React)
+3. Start the frontend (React)
+```bash
 cd ../admin-dashboard
 npm install
 npm start
+```
 
 React will run at http://localhost:3000 and connect to your backend.
 
-🧠 Future Ideas
+## 🧠 Future Ideas
 
-Resume improvement suggestions
+- Resume improvement suggestions
+- Recruiter tags and shortlist views
+- Export resumes to PDF or CSV
+- Email follow-ups to candidates
+- Public job page with resume upload form
 
-Recruiter tags and shortlist views
-
-Export resumes to PDF or CSV
-
-Email follow-ups to candidates
-
-Public job page with resume upload form
-
-📫 Contact
-Built by bakcrooms
+## 📫 Contact
+Built by bakcrooms  
 Follow the journey — more projects dropping soon.
